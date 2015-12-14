@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-http-server",
+  "version": "1.0.0",
+  "description": "a node http server without middleware that responds to several routes.  The server responds to a request to /time that will send back the current time of the server. It responds to a get request to /greet/name where name is any single word string. It should send back a string that greets that name. It has a separate post request to /greet that takes the name in JSON format. There are tests using chaiHTTP for both routes, as well as a Gruntfile/package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preetgujral/vanilla-http-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preetgujral/vanilla-http-server/issues"
+  },
+  "homepage": "https://github.com/preetgujral/vanilla-http-server#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^1.12.0",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.3"
+  }
+}
